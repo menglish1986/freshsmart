@@ -3,7 +3,7 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const FRESHDESK_DOMAIN = process.env.FRESHDESK_DOMAIN;
 const FRESHDESK_API_KEY = process.env.FRESHDESK_API_KEY;
