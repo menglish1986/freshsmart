@@ -1,0 +1,12 @@
+{
+  "build": {
+    "env": {
+      "FRESHDESK_DOMAIN": "smartaira.freshdesk.com",
+      "FRESHDESK_API_KEY": "Rbme9b0yUTIeLfQdN4XD",
+      "API_ACCESS_KEY": "727672767276"
+    }
+  },
+  "deploy": {
+    "startCommand": "node index.js"
+  }
+}
