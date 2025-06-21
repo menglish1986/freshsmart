@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: freshsmart-api
+    runtime: node
+    repo: https://github.com/menglish1986/freshsmart
+    branch: master
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: FRESHDESK_DOMAIN
+        value: smartaira.freshdesk.com
+      - key: FRESHDESK_API_KEY
+        value: Rbme9b0yUTIeLfQdN4XD
+      - key: API_ACCESS_KEY
+        value: 727672767276
